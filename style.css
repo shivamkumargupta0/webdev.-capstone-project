@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    background: linear-gradient(135deg, #f5f8ff, #e6eeff, #d3e0ff);
+    color: #111
+}
+
+.container {
+    width: min(1150px, 92%);
+    margin: auto
+}
+
+/* NAVBAR */
+.navbar {
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: rgba(255, 255, 255, .85);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid #e3e6ef
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #00bceb;
+    text-shadow: 0 0 16px #00eaff
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.4rem
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: .95rem;
+    transition: .2s
+}
+
+.nav-links a:hover {
+    color: #00bceb;
+    text-shadow: 0 0 8px #00eaff
+}
+
+.nav-actions button {
+    padding: .6rem 1.2rem;
+    border-radius: 999px;
+    font-size: .9rem;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    transition: .3s
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid #00bceb;
+    color: #00bceb
+}
+
+.btn-outline:hover {
+    box-shadow: 0 0 12px #00eaff
+}
+
+.btn-primary {
+    background: #00bceb;
+    color: #fff
+}
+
+.btn-primary:hover {
+    box-shadow: 0 0 16px #00bceb
+}
+
+/* HERO */
+
+.hero {
+    padding: 4rem 0
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    gap: 2rem;
+    align-items: center
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    line-height: 1.2
+}
+
+.hero-text p {
+    color: #4a5672;
+    margin: 1rem 0 1.6rem;
+    max-width: 470px
+}
+
+.btn-neon {
+    background: linear-gradient(90deg, #00eaff, #7b2cff);
+    color: #fff;
+    padding: .7rem 1.6rem;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    box-shadow: 0 0 14px #00eaff;
+    font-weight: 600;
+    transition: .3s
+}
+
+.btn-neon:hover {
+    transform: scale(1.07);
+    box-shadow: 0 0 22px #7b2cff
+}
+
+.hero-img img {
+    width: 100%;
+    border-radius: 20px;
+    transition: .4s
+}
+
+.hero-img img:hover {
+    transform: scale(1.05)
+}
+
+/* SEARCH */
+
+.search {
+    margin-top: -1rem;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 999px;
+    display: flex;
+    gap: 1rem;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, .1)
+}
+
+.search input,
+.search select {
+    flex: 1;
+    border: none;
+    background: #f0f4ff;
+    color: #111;
+    padding: .6rem 1rem;
+    border-radius: 999px
+}
+
+.search button {
+    border-radius: 999px
+}
+
+/* CATEGORY */
+
+.categories {
+    padding: 3rem 0
+}
+
+.categories h2 {
+    text-align: center;
+    margin-bottom: 1.4rem;
+    color: #1f2d55;
+    font-weight: 600
+}
+
+.cat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 1rem
+}
+
+.cat-card {
+    background: #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 600;
+    color: #1f2d55;
+    text-decoration: none;
+    transition: .3s;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .06)
+}
+
+.cat-card:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 18px #00eaff;
+    color: #00bceb
+}
+
+/* RESTAURANTS */
+
+.featured {
+    padding: 3rem 0
+}
+
+.featured h2 {
+    text-align: center;
+    margin-bottom: 1.3rem;
+    color: #1f2d55
+}
+
+.restaurant-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 1.3rem
+}
+
+.restaurant-card {
+    background: #fff;
+    border-radius: 1rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    color: #111;
+    transition: .3s;
+    box-shadow: 0 6px 22px rgba(0, 0, 0, .06)
+}
+
+.restaurant-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0
+}
+
+.restaurant-card:hover {
+    transform: scale(1.07);
+    box-shadow: 0 0 22px #00eaff
+}
+
+.restaurant-card span {
+    color: #ffc400;
+    font-weight: 600
+}
+
+/* PROMO */
+
+.promo {
+    padding: 3rem 0;
+    background: linear-gradient(135deg, #e6f7ff, #f8f5ff)
+}
+
+.promo h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #1f2d55
+}
+
+.promo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem
+}
+
+.promo-card {
+    background: #fff;
+    padding: 1.3rem;
+    border-radius: 1rem;
+    font-weight: 600;
+    text-align: center;
+    transition: .3s;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .06)
+}
+
+.promo-card:hover {
+    transform: scale(1.07);
+    box-shadow: 0 0 22px #7b2cff
+}
+
+/* TESTIMONIALS */
+
+.testimonials {
+    padding: 3rem 0
+}
+
+.testimonials h2 {
+    text-align: center;
+    margin-bottom: 1.3rem;
+    color: #1f2d55
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem
+}
+
+.review-card {
+    background: #fff;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    transition: .3s;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .06)
+}
+
+.review-card:hover {
+    transform: scale(1.07);
+    box-shadow: 0 0 22px #00eaff
+}
+
+.review-card h4 {
+    margin-top: .7rem;
+    color: #00bceb
+}
+
+/* APP */
+
+.get-app {
+    text-align: center;
+    padding: 3rem 0
+}
+
+.get-app h2 {
+    margin-bottom: .7rem;
+    color: #1f2d55
+}
+
+.get-app p {
+    color: #4a5672;
+    margin-bottom: 1rem
+}
+
+.app-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem
+}
+
+/* FOOTER */
+
+.footer {
+    background: #0b1128;
+    padding: 2rem 0;
+    margin-top: 2rem;
+    color: #e7ebf7
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.3rem
+}
+
+.footer h4 {
+    margin-bottom: .6rem;
+    color: #00eaff
+}
+
+.copy {
+    text-align: center;
+    margin-top: 1.2rem;
+    font-size: .85rem;
+    color: #b5c3d9
+}
