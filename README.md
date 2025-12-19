@@ -5,7 +5,7 @@ Zaika Express is a modern, sleek, and futuristic-themed food delivery landing pa
 
 ---
 
-## 🚀 Theme & Design Concept
+##  Theme & Design Concept
 
 The project follows a **futuristic soft gradient UI theme** inspired by modern delivery applications. The interface uses glowing accent colors, smooth shadows, rounded UI components, and premium typography to create a polished and clean user experience.
 
@@ -20,7 +20,7 @@ The project follows a **futuristic soft gradient UI theme** inspired by modern d
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 |--------|------------|
@@ -36,7 +36,7 @@ The project follows a **futuristic soft gradient UI theme** inspired by modern d
 
 ---
 
-## 🔧 Technologies Used
+##  Technologies Used
 
 - **HTML5**
 - **CSS3**
@@ -47,7 +47,7 @@ The project follows a **futuristic soft gradient UI theme** inspired by modern d
 
 ---
 
-## 📱 Responsive Breakpoints
+##  Responsive Breakpoints
 
 The page is optimized for multiple screen widths:
 
@@ -62,7 +62,7 @@ The layout automatically adjusts using CSS Grid and Flexbox to maintain usabilit
 
 ---
 
-## ▶ How to Run / View the Website
+##  How to Run / View the Website
 
 ### **Method 1: Open locally**
 1. Download or clone the project files
@@ -83,13 +83,13 @@ The layout automatically adjusts using CSS Grid and Flexbox to maintain usabilit
 
 ---
 
-## 📍 Project Status
+##  Project Status
 
 This is a completed landing page UI version. Additional enhancements such as mobile hamburger menu, scroll animations, and backend integration can be added in future versions.
 
 ---
 
-## 💡 Future Improvements (optional)
+##  Future Improvements (optional)
 
 - Add hamburger navigation for mobile
 - Add login/signup page UI
@@ -99,11 +99,11 @@ This is a completed landing page UI version. Additional enhancements such as mob
 
 ---
 
-## 🧑‍🎨 Developer
+##  Developer
 
 Designed & developed by **(Your Name)**  
 If you use this project, please give proper credit.
 
 ---
 
-### ⭐ If you like this UI, consider giving it a star on GitHub!
+###  If you like this UI, consider giving it a star !
